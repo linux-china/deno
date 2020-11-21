@@ -2,6 +2,11 @@
 
 Op crate that connects aliyun services.
 
+# Requirements
+
+Please download Alibaba Cloud CLI from  https://github.com/aliyun/aliyun-cli,  
+and execute `aliyun configure` to config your account.
+
 # Steps
 
 * Add `op_crates/aliyun` in root's Cargo.toml
