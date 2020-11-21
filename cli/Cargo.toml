@@ -20,6 +20,8 @@ harness = false
 path = "./bench/main.rs"
 
 [build-dependencies]
+deno_aliyun = { path = "../op_crates/aliyun", version = "0.1.0" }
+deno_aws = { path = "../op_crates/aws", version = "0.1.0" }
 deno_crypto = { path = "../op_crates/crypto", version = "0.2.0" }
 deno_core = { path = "../core", version = "0.68.0" }
 deno_web = { path = "../op_crates/web", version = "0.19.0" }
@@ -32,6 +34,8 @@ winres = "0.1.11"
 winapi = "0.3.9"
 
 [dependencies]
+deno_aliyun = { path = "../op_crates/aliyun", version = "0.1.0" }
+deno_aws = { path = "../op_crates/aws", version = "0.1.0" }
 deno_crypto = { path = "../op_crates/crypto", version = "0.2.0" }
 deno_core = { path = "../core", version = "0.68.0" }
 deno_doc = "0.1.15"
