@@ -1,0 +1,20 @@
+# Copyright 2018-2020 the Deno authors. All rights reserved. MIT license.
+
+[package]
+name = "deno_aliyun"
+version = "0.1.0"
+edition = "2018"
+description = "Connect deno with Aliyun"
+authors = ["linux_china"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/denoland/deno"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+deno_core = { version = "0.68.0", path = "../../core" }
+serde_json = { version = "1.0", features = ["preserve_order"] }
+serde = { version = "1.0", features = ["derive"] }
+
