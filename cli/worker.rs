@@ -282,6 +282,8 @@ impl MainWorker {
       ops::timers::init(js_runtime);
       ops::worker_host::init(js_runtime, None);
       ops::crypto::init(js_runtime, program_state.flags.seed);
+      ops::aliyun::init(js_runtime);
+      ops::aws::init(js_runtime);
       ops::reg_json_sync(js_runtime, "op_close", deno_core::op_close);
       ops::reg_json_sync(js_runtime, "op_resources", deno_core::op_resources);
       ops::reg_json_sync(
