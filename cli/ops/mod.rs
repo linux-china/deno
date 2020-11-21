@@ -3,6 +3,8 @@
 mod dispatch_minimal;
 pub use dispatch_minimal::MinimalOp;
 
+pub mod aliyun;
+pub mod aws;
 pub mod crypto;
 pub mod errors;
 pub mod fetch;
