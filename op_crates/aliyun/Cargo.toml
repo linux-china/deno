@@ -17,5 +17,5 @@ path = "lib.rs"
 deno_core = { version = "0.69.0", path = "../../core" }
 serde_json = { version = "1.0", features = ["preserve_order"] }
 serde = { version = "1.0", features = ["derive"] }
-aliyun_openapi = "0.2.0"
+aliyun-openapi = "0.2.0"
 
